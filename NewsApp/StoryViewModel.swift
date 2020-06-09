@@ -22,3 +22,13 @@ class StoryViewModel: ObservableObject {
             .store(in: &subscriptions)
     }
 }
+
+class DemoStoryViewModel: StoryViewModel {
+    override func load() {
+        stories = [
+            Story(id: 0, title: "Test1", by: "Author", time: TimeInterval.init(), url: "URL String"),
+            Story(id: 1, title: "Test2", by: "Author", time: TimeInterval.init(), url: "URL String"),
+            Story(id: 2, title: "Test3", by: "Author", time: TimeInterval.init(), url: "URL String"),
+            Story(id: 3, title: "Test4", by: "Author", time: TimeInterval.init(), url: "URL String")]
+    }
+}

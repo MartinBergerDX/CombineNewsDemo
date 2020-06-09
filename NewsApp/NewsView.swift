@@ -10,12 +10,12 @@ import SwiftUI
 
 struct NewsView: View {
     @ObservedObject var viewModel = StoryViewModel()
+    
     var body: some View {
         List {
             ForEach(viewModel.stories) { story in
                 NewsRow(story: story)
             }
-            
         }
         .listRowInsets(EdgeInsets())
         .onAppear {
@@ -26,6 +26,6 @@ struct NewsView: View {
 
 struct NewsView_Previews: PreviewProvider {
     static var previews: some View {
-        NewsView()
+        NewsView(viewModel: DemoStoryViewModel())
     }
 }

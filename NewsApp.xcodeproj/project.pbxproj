@@ -70,11 +70,11 @@
 				5B4D4A80248F98A5000EE399 /* NewsRow.swift */,
 				5B4D4A7C248F95C1000EE399 /* NewsAPI.swift */,
 				5B4D4A7E248F95EF000EE399 /* Story.swift */,
+				5B4D4A82248FAAD3000EE399 /* StoryViewModel.swift */,
 				5B4D4A6E248F9576000EE399 /* Assets.xcassets */,
 				5B4D4A73248F9576000EE399 /* LaunchScreen.storyboard */,
 				5B4D4A76248F9576000EE399 /* Info.plist */,
 				5B4D4A70248F9576000EE399 /* Preview Content */,
-				5B4D4A82248FAAD3000EE399 /* StoryViewModel.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
