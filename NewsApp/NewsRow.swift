@@ -21,6 +21,8 @@ struct NewsRow: View {
                 Spacer()
             }
             HStack {
+                Text("By:")
+                    .font(.subheadline)
                 Text(story.by)
                     .font(.subheadline)
                 Spacer()
